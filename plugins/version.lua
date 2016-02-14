@@ -1,16 +1,15 @@
 do
 
 function run(msg, matches)
-  return 'Merbot '.. VERSION .. [[ 
-  Checkout http://git.io/v4Oi0
-  GNU GPL v2 license.]]
+  return 'Metalbot '.. VERSION .. [[ 
+  ورژن غیر معتبر برای تست ساخته شده توسط مستر متال.]]
 end
 
 return {
   description = "Shows bot version", 
-  usage = "!version: Shows bot version",
+  usage = "ورژن: Shows bot version",
   patterns = {
-    "^!version$"
+    "^ورژن$"
   }, 
   run = run 
 }
