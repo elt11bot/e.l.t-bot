@@ -126,17 +126,17 @@ do
     description = 'Know your id or the id of a chat members.',
     usage = {
       user = {
-        '!id: Return your ID and the chat id if you are in one.'
+        '#id: Return your ID and the chat id if you are in one.'
       },
       moderator = {
-        '!id : Return ID of replied user if used by reply.',
-        '!id chat : Return the IDs of the current chat members.',
-        '!id chat txt : Return the IDs of the current chat members and send it as text file.',
-        '!id chat pm : Return the IDs of the current chat members and send it to PM.',
-        '!id chat pmtxt : Return the IDs of the current chat members, save it as text file and then send it to PM.',
-        '!id <id> : Return the IDs of the <id>.',
-        '!id @<user_name> : Return the member @<user_name> ID from the current chat.',
-        '!id <text> : Search for users with <text> on first_name, last_name, or print_name on current chat.'
+        '#id : Return ID of replied user if used by reply.',
+        '#id chat : Return the IDs of the current chat members.',
+        '#id chat txt : Return the IDs of the current chat members and send it as text file.',
+        '#id chat pm : Return the IDs of the current chat members and send it to PM.',
+        '#id chat pmtxt : Return the IDs of the current chat members, save it as text file and then send it to PM.',
+        '#id <id> : Return the IDs of the <id>.',
+        '#id @<user_name> : Return the member @<user_name> ID from the current chat.',
+        '#id <text> : Search for users with <text> on first_name, last_name, or print_name on current chat.'
       },
     },
     patterns = {
